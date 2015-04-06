@@ -69,7 +69,7 @@ public class Monitor extends TimerTask {
 		for(int i = 0 ; i<tables.size();i++){
 			
 			String tmp = tables.get(i);
-			String table_name = tables.get(i).substring(0, tmp.length()-crawler_tail.length());
+			String table_name = table_names.get(i);
 			DesTable dest = new DesTable(table_name,category.get(i));
 			dest.setDay_crawler(crawlerSourceData.selectByTime(tables.get(i), timeCol.get(i), begin_day, end));			
 			dest.setWeek_crawler(crawlerSourceData.selectByTime(tables.get(i), timeCol.get(i), begin_week, end));
@@ -103,9 +103,9 @@ public class Monitor extends TimerTask {
 		for(String str:txt){
 			String[] tmp = str.split(" ");
 			table_names.add(tmp[0]);
-			tables.add(tmp[0]+crawler_tail);
-			category.add(tmp[1]);
-			timeCol.add(tmp[2]);
+			tables.add(tmp[1]+crawler_tail);
+			category.add(tmp[2]);
+			timeCol.add(tmp[3]);
 		}		
 	}
 	
