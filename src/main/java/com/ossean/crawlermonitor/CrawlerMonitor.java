@@ -22,13 +22,11 @@ import com.ossean.util.TxtRead;
 
 
 @Repository("Monitor")
-public class Monitor extends TimerTask {
+public class CrawlerMonitor extends TimerTask {
 
 	@SuppressWarnings("restriction")
 	@Resource
 	private CrawlerSourceData crawlerSourceData;
-
-
 
 	@SuppressWarnings("restriction")
 	@Resource
@@ -102,10 +100,16 @@ public class Monitor extends TimerTask {
 		txt = TxtRead.read("./config/"+txt_name+".txt");
 		for(String str:txt){
 			String[] tmp = str.split(" ");
-			table_names.add(tmp[0]);
-			tables.add(tmp[1]+crawler_tail);
-			category.add(tmp[2]);
-			timeCol.add(tmp[3]);
+			for(String s:tmp){
+				System.out.println(s);
+			}
+			System.out.println(tmp.length);
+		    if(table_names.size()==4){
+		    	table_names.add(tmp[0]);
+				tables.add(tmp[1]+crawler_tail);
+				category.add(tmp[2]);
+				timeCol.add(tmp[3]);
+		    }			
 		}		
 	}
 	
@@ -141,7 +145,7 @@ public class Monitor extends TimerTask {
 	}
 	public static void main(String[] args) {
      	ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:/applicationContext*.xml");
-        Monitor m = (Monitor) applicationContext.getBean("Monitor");
+        CrawlerMonitor m = (CrawlerMonitor) applicationContext.getBean("Monitor");
 //		Main m = new Main();
 		m.begin();
 	}
