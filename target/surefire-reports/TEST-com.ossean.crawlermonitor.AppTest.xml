@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.ossean.crawlermonitor.AppTest" time="0.007" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.ossean.crawlermonitor.AppTest" time="0.016" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_20\jre\bin"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="F:\workplace\crawlermonitor"/>
+    <property name="user.dir" value="F:\workspace\new_crawlermonitor"/>
     <property name="java.runtime.version" value="1.8.0_20-b26"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_20\jre\lib\endorsed"/>
@@ -28,7 +28,7 @@
     <property name="os.name" value="Windows 7"/>
     <property name="classworlds.conf" value="C:\Program Files (x86)\maven\apache-maven-3.2.3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_20\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\RailsInstaller\Ruby1.9.3\bin;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Java\jdk1.8.0_20\bin;C:\Program Files\Java\jdk1.8.0_20\jre\bin;C:\Program Files (x86)\maven\apache-maven-3.2.3\bin;C:\Program Files (x86)\Git\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_20\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:\RailsInstaller\Git\cmd;E:\RailsInstaller\Ruby1.9.3\bin;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Java\jdk1.8.0_20\bin;C:\Program Files\Java\jdk1.8.0_20\jre\bin;C:\Program Files (x86)\maven\apache-maven-3.2.3\bin;C:\Program Files (x86)\Git\bin;E:\AppServ\Apache2.2\bin;E:\AppServ\php5;E:\AppServ\MySQL\bin;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -62,5 +62,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.ossean.crawlermonitor.AppTest" name="testApp" time="0.007"/>
+  <testcase classname="com.ossean.crawlermonitor.AppTest" name="testApp" time="0.016"/>
 </testsuite>

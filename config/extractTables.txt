@@ -20,3 +20,5 @@ iteye_blog blog extractTime
 apache project extractTime
 phpchina posts extractTime
 softpedia project extractTime
+slashdot posts extractTime
+neitui jobs extractTime

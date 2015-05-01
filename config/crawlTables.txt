@@ -12,3 +12,14 @@ cnblog_news cnblog_news news crawledTime
 freecode_projects freecode project crawledTime
 oschina_project oschina_project project crawledTime
 oschina_question oschina_question posts crawledTime
+51cto_blog 51cto_blog blog extractTime
+codeproject codeproject project extractTime
+lupaworld lupaworld posts extractTime
+iteye_blog iteye_blog blog extractTime
+gna project gna project extractTime
+iteye_blog iteye_blog blog extractTime
+apache apache project extractTime
+phpchina phpchina posts extractTime
+softpedia softpedia project extractTime
+slashdot slashdot posts extractTime
+neitui neitui jobs extractTime
