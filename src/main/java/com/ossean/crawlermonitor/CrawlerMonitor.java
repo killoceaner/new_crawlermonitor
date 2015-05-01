@@ -44,7 +44,7 @@ public class CrawlerMonitor extends TimerTask {
 	private String begin_week;
 	private String begin_month;
 	private String crawler_tail = "_html_detail";
-	private static String dest_table="destable";
+	private static String dest_table="ossean_monitors";
 	
 	
 	
@@ -100,7 +100,7 @@ public class CrawlerMonitor extends TimerTask {
 		txt = TxtRead.read("./config/"+txt_name+".txt");
 		for(String str:txt){
 			String[] tmp = str.split(" ");
-		    if(table_names.size()==4){
+		    if(tmp.length==4){
 		    	table_names.add(tmp[0]);
 				tables.add(tmp[1]+crawler_tail);
 				category.add(tmp[2]);

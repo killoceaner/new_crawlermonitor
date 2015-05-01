@@ -1,0 +1,6 @@
+com\ossean\crawlermonitor\DesTable.class
+com\ossean\crawlermonitor\CrawlerMonitor.class
+com\ossean\util\TxtRead.class
+com\ossean\crawlermonitor\dao\CrawlerSourceData.class
+com\ossean\crawlermonitor\App.class
+com\ossean\crawlermonitor\destDao\DestSource.class
