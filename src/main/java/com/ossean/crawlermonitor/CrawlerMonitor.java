@@ -100,10 +100,6 @@ public class CrawlerMonitor extends TimerTask {
 		txt = TxtRead.read("./config/"+txt_name+".txt");
 		for(String str:txt){
 			String[] tmp = str.split(" ");
-			for(String s:tmp){
-				System.out.println(s);
-			}
-			System.out.println(tmp.length);
 		    if(table_names.size()==4){
 		    	table_names.add(tmp[0]);
 				tables.add(tmp[1]+crawler_tail);
